@@ -9,12 +9,12 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <h1 class="brand">Brian Kennedy Jr</h1>
+      <h1 class="brand">Brian Kennedy Jr (Bkennedyjr12)</h1>
       <nav class="nav">
         <a href="#projects">Projects</a>
         <a href="#tools">Tools</a>
         <a href="#resources">Resources</a>
-        <a href="#agent">AI Agent</a>
+        <a href="#agent">ECO (A.I.)</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -24,57 +24,55 @@
     <section class="hero">
       <div class="container">
         <h2>Entrepreneur Ecosystem Executive Director</h2>
-        <p class="lead">Building programs, partnerships, and tools that empower founders, investors, and communities. Powered by AmPac Business Capital.</p>
+        <p class="lead">Building programs, partnerships, and AI-enabled tools that empower founders, operators, and capital providers. Powered by AmPac Business Capital.</p>
         <p>
           <a class="btn" href="#projects">View projects</a>
-          <a class="btn btn-outline" href="#agent">Launch AI Agent</a>
+          <a class="btn btn-outline" href="#agent">Launch ECO</a>
         </p>
       </div>
     </section>
 
     <section id="projects" class="container section">
-      <h3>Projects & Achievements</h3>
+      <h3>Selected Projects & Initiatives</h3>
       <ul class="cards">
         <li>
-          <h4>Founder Support Network</h4>
-          <p>Programs and fellowships connecting founders to capital, mentors, and corporate partners.</p>
+          <h4>Entrepreneur Ecosystem Platform</h4>
+          <p>AI-powered operating system for AmPac's Entrepreneur Ecosystem: member concierge, funding pathways, and partner integrations (see: entrepreneur-ecosystem).</p>
         </li>
         <li>
-          <h4>Community Accelerator</h4>
-          <p>Regional startup accelerator focused on scaling revenue and distribution for early-stage teams.</p>
+          <h4>The Ballers Kingdom</h4>
+          <p>Community youth development and sports entrepreneurship programming; website & outreach tools (ballkingdom.com).</p>
         </li>
         <li>
-          <h4>Industry Partnerships</h4>
-          <p>Strategic alliances with lenders, investors, and ecosystem partners to expand access to resources.</p>
+          <h4>ECO — Personal AI Agent</h4>
+          <p>Local-first AI agent ("ECO") for summarizing programs, drafting outreach, and running agent skills on private data sources.</p>
         </li>
       </ul>
     </section>
 
     <section id="tools" class="container section">
-      <h3>Tools & Offerings</h3>
-      <ul>
-        <li>Deal flow pipeline and portfolio tools</li>
-        <li>Founder resource library and playbooks</li>
-        <li>Workshops, mentorship, and funding introductions</li>
-      </ul>
+      <h3>Tools & Tech</h3>
+      <p>Open-source stacks: Python, FastAPI, LangChain patterns, local LLMs (llama.cpp / llama-cpp-python), Whisper for STT, Coqui for TTS, FAISS for semantic search.</p>
     </section>
 
     <section id="resources" class="container section">
-      <h3>Resources</h3>
-      <p>Curated resources, guides, and templates for founders and operators — business planning, fundraising, go-to-market, and more.</p>
+      <h3>Resources & Repos</h3>
+      <p>Live projects and code: entrepreneur-ecosystem, ballkingdom, agent prototypes (AmPac-Bot, Chatbot). Full documentation and agent skillsets are embedded into this repo under <code>/agent-data</code>.</p>
     </section>
 
     <section id="agent" class="container section">
-      <h3>Personal A.I. Agent</h3>
-      <p>This personal agent helps surface your projects, summarize meetings, draft outreach, and provide quick research. Click <button id="launch-agent" class="inline-btn">Launch Agent</button> to open a demo interaction (local demo).</p>
-
+      <h3>ECO — Your Personal AI Agent</h3>
+      <p>ECO runs locally against your data: repo READMEs, meeting transcripts, and curated resources. It uses semantic search + a local LLM and supports voice I/O (Whisper + Coqui) if installed.</p>
+      <p>
+        <button id="launch-agent" class="inline-btn">Open ECO demo</button>
+      </p>
       <div id="agent-modal" class="modal" aria-hidden="true">
         <div class="modal-content">
           <button class="modal-close" id="close-agent">×</button>
-          <h4>Brian's A.I. Agent (Demo)</h4>
+          <h4>ECO (Demo)</h4>
           <div class="agent-chat">
-            <div class="agent-response">Hi — I can summarize projects, find resources, and draft emails. Try: "Summarize my Founder Support Network program."</div>
-            <textarea id="agent-input" placeholder="Ask the agent..." rows="3"></textarea>
+            <div class="agent-response">ECO is ready. Try: "Summarize my entrepreneur ecosystem project"</div>
+            <textarea id="agent-input" placeholder="Ask ECO..." rows="3"></textarea>
             <button id="agent-send" class="btn">Send</button>
             <div id="agent-output" class="agent-output" aria-live="polite"></div>
           </div>
@@ -84,16 +82,14 @@
 
     <section id="contact" class="container section">
       <h3>Contact</h3>
-      <p>For speaking, partnerships, or media: use the contact form or connect on LinkedIn.</p>
-      <p><a href="#" class="btn btn-outline">Contact form (placeholder)</a></p>
+      <p>For speaking, partnerships, or media: connect on LinkedIn or email <a href="mailto:info@ballkingdom.com">info@ballkingdom.com</a>.</p>
     </section>
 
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© Brian Kennedy Jr — Entrepreneur Ecosystem Executive Director. Powered by AmPac Business Capital.</p>
-      <p class="small">Built as a simple static site. Replace placeholders with your preferred links and contact details.</p>
+      <p>© Brian Kennedy Jr. Powered by AmPac Business Capital. ECO — local A.I. agent.</p>
     </div>
   </footer>
 
