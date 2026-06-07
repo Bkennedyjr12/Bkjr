@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "ampac-database"
+  },
+  "targets": {
+    "ampac-database": {
+      "hosting": {
+        "ee": ["entrepreneur-ecosystem"]
+      }
+    }
+  }
+}
