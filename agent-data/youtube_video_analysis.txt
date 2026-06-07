@@ -1,0 +1,55 @@
+Starting video analysis...
+Submitting video analysis task...
+Task submitted (ID: video-analysis-a981b2b8-c828-46a2-b008-3be20d7d9ecf)
+[8s] Status: Analyzing video content with AI...
+[33s] Still processing, please wait...
+[45s] Status: Analysis completed
+[45s] Analysis completed!
+Full analysis result saved to: /home/ubuntu/video_MeEZpjGrpm0_analysis_20260607_074709.md
+Note: This tool performs AI-based visual and audio analysis, not verbatim transcription. For detailed speech transcription, use `manus-speech-to-text` instead.
+Analysis result:
+
+Based on a detailed analysis of the video and audio, here is the extracted information regarding tools, apps, APIs, models, hardware, platforms, workflows, and voice/audio functionality.
+
+### 1. AI Models & APIs
+*   **Text to Speech Model (Generic)** - Mentioned as part of the old, high-latency pipeline. [00:41] (Confidence: High)
+*   **Large Language Model (Generic)** - Mentioned as part of the old pipeline. [00:44] (Confidence: High)
+*   **Speech to Text Model (Generic)** - Mentioned as part of the old pipeline. [00:44] (Confidence: High)
+*   **Gemini 2.0 Flash / "Gemini 2.5 Native Audio"** - The creator verbally refers to "Gemini 2.5 native audio," while the on-screen text displays "Gemini 2.0 Flash." This is the core model used for low-latency, native audio communication. [00:58] (Confidence: High)
+*   **Vision Model (Generic)** - Used for hand tracking and gesture recognition. [04:36] (Confidence: High)
+*   **Gemini Computer Use** - A specialized model used to give the AI control over the web browser. [06:10] (Confidence: High)
+*   **"Gemini 3.0"** - Mentioned by the creator and shown on screen as the model used for generating CAD designs. [11:58] (Confidence: High)
+
+### 2. Hardware Devices
+*   **Lapel Microphone** - Worn by the creator for recording the video. [00:00] (Confidence: High)
+*   **Kasa Smart Bulbs** - Used for demonstrating smart home control. [03:06] (Confidence: High)
+*   **Insta360 Link** - A webcam used for vision input, explicitly listed in the A.D.A. settings menu. [05:22] (Confidence: High)
+*   **Creality K1** - A 3D printer used to print the AI-generated CAD design. [12:32, 13:02] (Confidence: High)
+*   **Creality K1 SE** - Another 3D printer listed in the A.D.A. interface. [12:32] (Confidence: High)
+*   **Robot Arm ("Ali")** - A physical robot arm visible in the background, mentioned at the end of the video. [00:00, 13:28] (Confidence: High)
+
+### 3. Software, Apps, & Platforms
+*   **A.D.A. (Advanced Design Assistant)** - The custom-built AI assistant software featured in the video. [00:07] (Confidence: High)
+*   **Python** - Mentioned as the programming language used to interface with the Kasa smart bulbs. [03:10] (Confidence: High)
+*   **Amazon.com** - Platform navigated by the web agent to find a servo motor. [06:27] (Confidence: High)
+*   **Google Search** - Platform used by the web agent to search for movie showtimes. [06:37] (Confidence: High)
+*   **Creality Print** - The slicer software used to prepare the STL file for 3D printing. [12:55] (Confidence: High)
+
+### 4. Workflows & Concepts
+*   **Tool Calling** - A core concept explained where the AI is given a "toolbox" of specific scripts (e.g., controlling lights, writing files) that it can autonomously choose to execute based on the user's prompt. [03:33] (Confidence: High)
+*   **Multi-modal Input** - The ability of the AI to process audio, text, and real-time video feeds simultaneously (demonstrated by identifying physical objects). [01:46] (Confidence: High)
+*   **Hand Tracking & Gesture Control** - Using a vision model to map hand movements to mouse cursor movements and gestures (Point Up, Open Palm, Peace Sign, Pinch) to clicks/drags. [04:33] (Confidence: High)
+*   **Web Agent Automation** - Giving the AI the ability to view a browser screenshot, scroll, click, and type to complete tasks like online shopping. [06:05] (Confidence: High)
+*   **Project Management & Long-term Memory** - Providing the AI with tools (`write_file_tool`, `read_directory_tool`, `read_file_tool`) to create folders, write markdown plans, and save/read `chat_history.json` files to maintain context over time. [08:35] (Confidence: High)
+*   **AI CAD Generation & 3D Printing** - A workflow where a secondary AI model generates 3D geometry, outputs an `.STL` file, which is then sent to a slicer and printed on a physical 3D printer. [11:06, 12:30] (Confidence: High)
+
+### 5. Voice/Audio Functionality Analysis
+*   **Architecture Shift:** The creator explicitly explains moving away from a traditional three-model pipeline (Speech-to-Text -> LLM -> Text-to-Speech) because it caused severe latency issues. [00:41]
+*   **Native Audio:** The current system uses a "Native Audio" model (Gemini) that processes audio directly. This allows the AI to "hear, think, and speak" natively, drastically reducing response times. [00:58]
+*   **Interruptions:** A highlighted benefit of the native audio model is the ability to interrupt the AI mid-sentence, causing it to immediately stop talking and listen to the new input. [01:21]
+*   **Wake Word & Listening Behavior:** The creator addresses the assistant as "ADA," but a strict wake-word mechanism is not explicitly detailed. The UI displays "Audio Paused" and "Audio Resumed" [03:58, 06:37], suggesting it may use Voice Activity Detection (VAD) or a push-to-talk toggle rather than always-on hotword detection.
+*   **Microphone/Speaker Setup:** While the creator wears a lapel mic for the video recording, the A.D.A. software settings menu [05:22] reveals it is configured to use the "Microphone (3- Insta360 Link)" and output audio to a "Headset Earphone."
+
+### 6. Video Metadata & Links
+*   **Video Title & Creator:** The specific video title and channel name are not explicitly displayed in the video content.
+*   **Description Links:** The creator states, "all my code for my projects are free... check out the code and build this out yourself in the link in the description." [05:34] (Confidence: High)
