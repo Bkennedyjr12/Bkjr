@@ -1,0 +1,25 @@
+Starting video analysis...
+Submitting video analysis task...
+Task submitted (ID: video-analysis-cd9cd8ee-a0b5-4f29-95d2-c41b2d03a998)
+[8s] Status: Analyzing video content with AI...
+[25s] Status: Analysis completed
+[25s] Analysis completed!
+Full analysis result saved to: /home/ubuntu/video_jarvis_x_video_analysis_20260606_044501.md
+Note: This tool performs AI-based visual and audio analysis, not verbatim transcription. For detailed speech transcription, use `manus-speech-to-text` instead.
+Analysis result:
+
+Based on the visual and audio analysis of the video, here are the identified tools, apps, services, and product names:
+
+**Visible Tools (00:08 - 01:09):**
+*   **Stripe:** Visible on the bottom left monitor, displaying revenue and financial data.
+*   **Google Analytics:** Visible on the bottom middle monitor, displaying website/app traffic and user data.
+*   **YouTube Studio:** Visible on the bottom right monitor, displaying video performance and channel analytics.
+
+**Mentioned Tools/Names (Audio & Captions):**
+*   **Jarvis:** The name of the AI assistant managing the app.
+*   **Tom:** Referred to as the "developer agent" who built the backend implementation (Audio: 00:52 - 00:54).
+*   **Scout:** Referred to as an agent to "research the next set of organic content angles" (Audio: 01:04 - 01:06).
+
+**Captions Mentioning Tools:**
+*   00:00 - 00:04: "POV: Jarvis is building you a $30k MRR app"
+*   00:01 - 00:02: "Hey Jarvis, wake up!"
